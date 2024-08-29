@@ -24,6 +24,7 @@ public class LinkedListStack{
             return -1;
         }
         int poppedOut = top.data;
+        top = top.next;
         System.out.println(poppedOut + " removed from the stack");
         return  poppedOut;
 
